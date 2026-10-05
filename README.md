@@ -2,10 +2,11 @@
 
 **Using glow-stick chemistry to introduce excited states, conical intersections and quantum computing to undergraduates**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/peroxides-to-qubits/blob/main/Peroxides_to_Qubits.ipynb)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/seenivasanh/from_peroxides_to_qubits_glowsticks/blob/main/Peroxides_to_Qubits.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23163566.svg)](https://doi.org/10.5281/zenodo.23163566)
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 
 A self-contained Jupyter / Google Colab teaching module. Students stretch the O–O bond of
 hydrogen peroxide, follow the decomposition of 1,2-dioxetane with SA-CASSCF (S₀, S₁, T₁),
@@ -56,8 +57,8 @@ cannot look up the answers.
 ### Local installation
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/peroxides-to-qubits.git
-cd peroxides-to-qubits
+git clone https://github.com/seenivasanh/from_peroxides_to_qubits_glowsticks.git
+cd from_peroxides-to-qubits_glowsticks
 python -m venv .venv && source .venv/bin/activate     # Python >= 3.11
 pip install -r requirements.txt
 jupyter lab Peroxides_to_Qubits.ipynb
