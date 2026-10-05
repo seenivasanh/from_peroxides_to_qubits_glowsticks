@@ -1,0 +1,12 @@
+# Peroxides to Qubits — Python dependencies
+# Python >= 3.11 (required by PennyLane 0.45). Tested with PySCF 2.14 and PennyLane 0.45.
+# Install with:  pip install -r requirements.txt
+
+pyscf==2.14.*
+pennylane==0.45.*        # also installs pennylane-lightning (lightning.qubit), autograd and scipy
+numpy>=2.0
+scipy
+matplotlib>=3.8
+
+# To run the notebook locally (not needed on Google Colab)
+jupyterlab
